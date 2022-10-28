@@ -1,0 +1,170 @@
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 40px 20px;
+}
+
+body {
+    font-family: -webkit-body;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 750px;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+ } 
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  width: 200px;
+  height: 50px;
+  font-size: x-large;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: cornflowerblue;
+}
+
+
+h1 {
+    background-image: url("../css/intro_image01.png");
+    background-repeat: no-repeat;
+    color: black;
+    font-size: xxx-large;
+    font-weight: 500;
+    padding: 500px;
+    text-align:right;
+    width: 400px;
+    height: 25px;
+    background-size: 800px;
+    background-position: center center;
+    margin-top: auto;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: black;
+    font-size: x-large;
+    line-height: 1.6;
+    text-align: center;
+    direction: rtl;
+} 
+
+h2 {
+   color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    background-image: url("../css/background.jpg");
+
+}
+
+.p1 {
+    color:blue;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.p2 {
+    color: blue;  
+    font-size: xx-large;
+    text-align: left;
+}
+
+
+.p3 {
+   color: blue;  
+   font-size: xx-large;
+   text-align: left;
+}
+.special-heading {
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -3px;
+    margin: 0;
+}
+
+.contact .information {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact .information .label {
+    font-size: 35px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+
+.contact .information .link {
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.contact .information .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contact .information .social i {
+    margin-left: 10px;
+    color: black;
+}
+
+.footer {
+   background-color: cadetblue;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+}
